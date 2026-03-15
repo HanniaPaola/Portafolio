@@ -1,0 +1,178 @@
+body{
+font-family:'Poppins',sans-serif;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px 40px;
+background:#020617;
+}
+
+.nav-links{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:52px;
+}
+
+.hero-buttons{
+margin-top:20px;
+}
+
+.btn-primary{
+background:#3b82f6;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+}
+
+.btn-secondary{
+border:1px solid white;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+margin-left:10px;
+}
+
+.section{
+padding:80px 20px;
+text-align:center;
+}
+
+.tech-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.tech{
+background:#1e293b;
+padding:12px 25px;
+border-radius:8px;
+}
+
+.projects-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+margin-top:40px;
+}
+
+.project-card{
+background:#1e293b;
+padding:25px;
+width:280px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-5px);
+}
+
+.blog-list{
+list-style:none;
+padding:0;
+}
+
+.blog-list li{
+margin:15px 0;
+}
+
+.blog-list a{
+color:#3b82f6;
+text-decoration:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+.btn-cv{
+background:#22c55e;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+margin-left:10px;
+display:inline-block;
+}
+
+.project-links{
+margin-top:15px;
+}
+
+.project-links a{
+color:#3b82f6;
+text-decoration:none;
+font-weight:500;
+}
+
+.project-card span{
+display:inline-block;
+background:#334155;
+padding:5px 10px;
+margin:4px;
+border-radius:5px;
+font-size:14px;
+}
+
+.experience-card{
+background:#1e293b;
+padding:25px;
+width:400px;
+margin:auto;
+border-radius:10px;
+text-align:left;
+}
+
+.experience-card ul{
+margin-top:10px;
+}
+
+.skills-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.skill-category{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+width:200px;
+}
+
+.skill-category span{
+display:inline-block;
+background:#334155;
+padding:6px 10px;
+margin:4px;
+border-radius:6px;
+font-size:14px;
+}
